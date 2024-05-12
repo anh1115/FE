@@ -1,0 +1,31 @@
+body{
+  display: grid;
+  place-items: center;
+}
+
+nav,
+.menu{
+  background-color: rgb(39, 39, 39);
+}
+
+.menu {
+  width: 20%;
+}
+
+.navbar-brand img{
+  width: 230px;
+  height: 61px;
+  color: #f2f2f2;
+}
+
+.nav-item a{
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+app-home {
+  right: 0;
+  position: absolute;
+  width: 80%;
+}
