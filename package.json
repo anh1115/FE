@@ -19,6 +19,8 @@
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
     "@sweetalert2/ngx-sweetalert2": "^12.2.0",
+    "@types/chart.js": "^2.9.41",
+    "chart.js": "^4.4.2",
     "ngx-pagination": "^6.0.3",
     "primeng": "^14.1.1",
     "rxjs": "~7.5.0",

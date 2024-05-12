@@ -1,1 +1,56 @@
-<p>items works!</p>
+<table class="table caption-top">
+  <caption class="text-primary fs-3 text">
+    <h3 class="col-4">Danh sách sản phẩm</h3>
+    <div>
+      <form class=" col-4 form-inline">
+        <div class="input-group">
+          <input class="form-control" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+          <button class="btn btn-primary" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </form>
+      <button routerLink="create_item" type="button" class="btn btn-success float-end">
+        <i class="fa-solid fa-plus"></i>
+        Thêm sản phẩm mới
+      </button>
+    </div>
+
+  </caption>
+  <thead class="table-light">
+  <tr>
+    <th scope="col">Id</th>
+    <th scope="col">Tên sản phẩm</th>
+    <th scope="col">Giá</th>
+    <th scope="col">Url</th>
+    <th scope="col">Người tạo</th>
+    <th scope="col">Ngày tạo</th>
+    <th scope="col">Người sửa</th>
+    <th scope="col">Ngày sửa</th>
+    <th scope="col">Sửa</th>
+    <th scope="col">Xóa</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td><a class="nav-link" title="Ấn vào để xem chi tiết" routerLink="detail_item">Mark</a></td>
+    <td>Otto</td>
+    <td>@mdo</td>
+    <td>Mark</td>
+    <td>Mark</td>
+    <td>Mark</td>
+    <td>Mark</td>
+    <td>
+      <button type="button" class="btn">
+        <i class="fa-solid fa-pen-to-square text-primary"></i>
+      </button>
+    </td>
+    <td>
+      <button type="button" class="btn">
+        <i class="fa-solid fa-trash text-danger"></i>
+      </button>
+    </td>
+  </tr>
+  </tbody>
+</table>
