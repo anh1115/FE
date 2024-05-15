@@ -15,6 +15,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { CreateUserComponent } from './components/users/create-user/create-user.component';
 import { DetailUserComponent } from './components/users/detail-user/detail-user.component';
 import { DetailOderComponent } from './components/oders/detail-oder/detail-oder.component';
+import { DetailEmployeeComponent } from './components/employees/detail-employee/detail-employee.component';
+import { CreateEmployeeComponent } from './components/employees/create-employee/create-employee.component';
 
 
 
@@ -31,7 +33,9 @@ import { DetailOderComponent } from './components/oders/detail-oder/detail-oder.
     DetailItemComponent,
     CreateUserComponent,
     DetailUserComponent,
-    DetailOderComponent
+    DetailOderComponent,
+    DetailEmployeeComponent,
+    CreateEmployeeComponent
   ],
   imports: [
     CommonModule,

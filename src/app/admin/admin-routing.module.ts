@@ -12,6 +12,8 @@ import {EmployeesComponent} from "./components/employees/employees.component";
 import {CreateUserComponent} from "./components/users/create-user/create-user.component";
 import {DetailUserComponent} from "./components/users/detail-user/detail-user.component";
 import {DetailOderComponent} from "./components/oders/detail-oder/detail-oder.component";
+import {DetailEmployeeComponent} from "./components/employees/detail-employee/detail-employee.component";
+import {CreateEmployeeComponent} from "./components/employees/create-employee/create-employee.component";
 
 
 
@@ -28,9 +30,11 @@ const routes: Routes = [
       { path: 'employees', component: EmployeesComponent },
       { path: 'items/create_item', component: CreateItemComponent },
       { path: 'users/create_user', component: CreateUserComponent},
+      { path: 'employees/create_employee', component: CreateEmployeeComponent },
       { path: 'items/detail_item', component: DetailItemComponent },
       { path: 'users/detail_user', component: DetailUserComponent },
       { path: 'oders/detail_oder', component: DetailOderComponent },
+      { path: 'employees/detail_employee', component: DetailEmployeeComponent },
     ],
   },
 ];
